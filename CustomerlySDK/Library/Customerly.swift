@@ -41,7 +41,7 @@ import Kingfisher
         user_color_template = widgetColor
         
         //Image cache expiration after one day
-        ImageCache.default.diskStorage.config.expiration = StorageExpiration.days(86400)
+        // ImageCache.default.diskStorage.config.expiration = StorageExpiration.days(86400)
         
         //If user is not stored, ping ghost, else ping registered. Connect to socket
         ping(success: { () in
