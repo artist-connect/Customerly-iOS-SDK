@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -104,6 +104,96 @@
 		45FF40A21E12E486002707C3 /* CustomerlyImageGallery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45FF40A11E12E486002707C3 /* CustomerlyImageGallery.storyboard */; };
 		45FF40A41E12E4AB002707C3 /* CustomerlyGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF40A31E12E4AB002707C3 /* CustomerlyGalleryViewController.swift */; };
 		8BB17DE1066C10F2234DB656 /* Pods_CustomerlyDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E04C0ED8FA868A83B0BBE2C /* Pods_CustomerlyDemo.framework */; };
+		C9CEACC0250AB292001F1BFE /* CyCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DE3EA1E351E6D008B115D /* CyCollectionView.swift */; };
+		C9CEACC1250AB292001F1BFE /* CyString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF40971E102FED002707C3 /* CyString.swift */; };
+		C9CEACC2250AB292001F1BFE /* CyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A0FA21DF47ACB003EEA43 /* CyLabel.swift */; };
+		C9CEACC3250AB292001F1BFE /* CustomerlyConversationListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A0F9E1DF46F35003EEA43 /* CustomerlyConversationListVC.swift */; };
+		C9CEACC4250AB292001F1BFE /* CyConversationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A0F961DF0BD20003EEA43 /* CyConversationModel.swift */; };
+		C9CEACC5250AB292001F1BFE /* CyUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CE17F1DE0AB4500FF65DC /* CyUserModel.swift */; };
+		C9CEACC6250AB292001F1BFE /* CyWebsocketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CE1801DE0AB4500FF65DC /* CyWebsocketModel.swift */; };
+		C9CEACC7250AB292001F1BFE /* CyBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CDE1FA1E394A80009C0112 /* CyBanner.swift */; };
+		C9CEACC8250AB292001F1BFE /* CyMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CE1711DE0AB4500FF65DC /* CyMapping.swift */; };
+		C9CEACC9250AB292001F1BFE /* CySurveyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E61EFE1E1983FA0088D6C5 /* CySurveyListViewController.swift */; };
+		C9CEACCA250AB292001F1BFE /* CyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A0FA01DF47A90003EEA43 /* CyImageView.swift */; };
+		C9CEACCB250AB292001F1BFE /* CustomerlySurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E61EF41E16ACBC0088D6C5 /* CustomerlySurveyViewController.swift */; };
+		C9CEACCC250AB292001F1BFE /* CyAdminModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454A9D3F1DEAFE060078F6D3 /* CyAdminModel.swift */; };
+		C9CEACCD250AB292001F1BFE /* CySurveyResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4579C0441E1D988A0035DAC4 /* CySurveyResponseModel.swift */; };
+		C9CEACCE250AB292001F1BFE /* CyMessageAttachmentRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A0F8E1DEE33EA003EEA43 /* CyMessageAttachmentRequestModel.swift */; };
+		C9CEACCF250AB292001F1BFE /* CyStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451753A52066C8E800E3D1BF /* CyStackView.swift */; };
+		C9CEACD0250AB292001F1BFE /* CyDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FA19C61DECC5FD00D26059 /* CyDate.swift */; };
+		C9CEACD1250AB292001F1BFE /* CyErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FB16291F269ABD00F515DF /* CyErrorModel.swift */; };
+		C9CEACD2250AB292001F1BFE /* CyTrackingRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CE17E1DE0AB4500FF65DC /* CyTrackingRequestModel.swift */; };
+		C9CEACD3250AB292001F1BFE /* CySettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CE17C1DE0AB4500FF65DC /* CySettingsModel.swift */; };
+		C9CEACD4250AB292001F1BFE /* CyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FA19C21DEC283A00D26059 /* CyViewController.swift */; };
+		C9CEACD5250AB292001F1BFE /* CySurveyButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E61F001E1984810088D6C5 /* CySurveyButtonTableViewCell.swift */; };
+		C9CEACD6250AB292001F1BFE /* CyTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452745DB1DF9C027006215B1 /* CyTableView.swift */; };
+		C9CEACD7250AB292001F1BFE /* CySurveyPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9E0AE1E1C46D300C7241F /* CySurveyPickerViewController.swift */; };
+		C9CEACD8250AB292001F1BFE /* CustomerlyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CE1A01DE0C85500FF65DC /* CustomerlyNavigationController.swift */; };
+		C9CEACD9250AB292001F1BFE /* CyLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CE1701DE0AB4500FF65DC /* CyLogging.swift */; };
+		C9CEACDA250AB292001F1BFE /* CyHTTPValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CE16F1DE0AB4500FF65DC /* CyHTTPValidation.swift */; };
+		C9CEACDB250AB292001F1BFE /* CyAppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CE1761DE0AB4500FF65DC /* CyAppModel.swift */; };
+		C9CEACDC250AB292001F1BFE /* CyActiveAdminsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453CC13C1DEA2C0F00D85957 /* CyActiveAdminsTableViewCell.swift */; };
+		C9CEACDD250AB292001F1BFE /* Customerly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CE16C1DE0AB4500FF65DC /* Customerly.swift */; };
+		C9CEACDE250AB292001F1BFE /* CySendMessageResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A0F941DF0AA41003EEA43 /* CySendMessageResponseModel.swift */; };
+		C9CEACDF250AB292001F1BFE /* CyAttachmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A0F9A1DF0C272003EEA43 /* CyAttachmentModel.swift */; };
+		C9CEACE0250AB292001F1BFE /* CyBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459B2D6A1E4BDC50005B5CAD /* CyBundle.swift */; };
+		C9CEACE1250AB292001F1BFE /* CyTokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451FCB9A1E2A8094006E315D /* CyTokenModel.swift */; };
+		C9CEACE2250AB292001F1BFE /* CyDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CE1791DE0AB4500FF65DC /* CyDataModel.swift */; };
+		C9CEACE3250AB292001F1BFE /* CyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458781C41DFC673E00851DD9 /* CyTextView.swift */; };
+		C9CEACE4250AB292001F1BFE /* CySeenMessageSocketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45282DA71DFF21830021E7F9 /* CySeenMessageSocketModel.swift */; };
+		C9CEACE5250AB292001F1BFE /* CySendMessageRequestParamsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A0F8C1DEE2D92003EEA43 /* CySendMessageRequestParamsModel.swift */; };
+		C9CEACE6250AB292001F1BFE /* CyAccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A0FA61DF47E08003EEA43 /* CyAccountModel.swift */; };
+		C9CEACE7250AB292001F1BFE /* CyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FA19B81DEB423600D26059 /* CyView.swift */; };
+		C9CEACE8250AB292001F1BFE /* CyConversationMessagesResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458781C81DFC789400851DD9 /* CyConversationMessagesResponseModel.swift */; };
+		C9CEACE9250AB292001F1BFE /* CyConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CE16D1DE0AB4500FF65DC /* CyConfig.swift */; };
+		C9CEACEA250AB292001F1BFE /* CyMessageSeenRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF409F1E12AA9A002707C3 /* CyMessageSeenRequestModel.swift */; };
+		C9CEACEB250AB292001F1BFE /* CyRequestPingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CE17B1DE0AB4500FF65DC /* CyRequestPingModel.swift */; };
+		C9CEACEC250AB292001F1BFE /* CyDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CE16E1DE0AB4500FF65DC /* CyDataFetcher.swift */; };
+		C9CEACED250AB292001F1BFE /* CyTypingSocketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45282DA31DFF0FF20021E7F9 /* CyTypingSocketModel.swift */; };
+		C9CEACEE250AB292001F1BFE /* CyHeaderDateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DE3E81E34F0A9008B115D /* CyHeaderDateTableViewCell.swift */; };
+		C9CEACEF250AB292001F1BFE /* CySurveySliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9E0B01E1C4AF300C7241F /* CySurveySliderViewController.swift */; };
+		C9CEACF0250AB292001F1BFE /* CyConversationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A0FA41DF47C3D003EEA43 /* CyConversationTableViewCell.swift */; };
+		C9CEACF1250AB292001F1BFE /* CySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D16F141E412C500092E554 /* CySound.swift */; };
+		C9CEACF2250AB292001F1BFE /* CySurveyParamsRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4579C0481E1DA19D0035DAC4 /* CySurveyParamsRequestModel.swift */; };
+		C9CEACF3250AB292001F1BFE /* CyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FA19BC1DEB4C2000D26059 /* CyButton.swift */; };
+		C9CEACF4250AB292001F1BFE /* CySingleActiveAdminCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DE3EC1E351ECE008B115D /* CySingleActiveAdminCollectionViewCell.swift */; };
+		C9CEACF5250AB292001F1BFE /* CyConversationRetrieveResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A0FA81DF47EC2003EEA43 /* CyConversationRetrieveResponseModel.swift */; };
+		C9CEACF6250AB292001F1BFE /* CyDeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CE17A1DE0AB4500FF65DC /* CyDeviceModel.swift */; };
+		C9CEACF7250AB292001F1BFE /* CyConversationRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A0FAA1DF48022003EEA43 /* CyConversationRequestModel.swift */; };
+		C9CEACF8250AB292001F1BFE /* CyRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CE1721DE0AB4500FF65DC /* CyRouting.swift */; };
+		C9CEACF9250AB292001F1BFE /* CySurveyTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9E0B41E1C5A1E00C7241F /* CySurveyTextFieldViewController.swift */; };
+		C9CEACFA250AB292001F1BFE /* CyAppConfigModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CE1751DE0AB4500FF65DC /* CyAppConfigModel.swift */; };
+		C9CEACFB250AB292001F1BFE /* CyStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CE1731DE0AB4500FF65DC /* CyStorage.swift */; };
+		C9CEACFC250AB292001F1BFE /* CyMessageSocketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45282DA51DFF12470021E7F9 /* CyMessageSocketModel.swift */; };
+		C9CEACFD250AB292001F1BFE /* CySurveyStarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9E0B21E1C532B00C7241F /* CySurveyStarsViewController.swift */; };
+		C9CEACFE250AB292001F1BFE /* CyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A0F891DEE2951003EEA43 /* CyColor.swift */; };
+		C9CEACFF250AB292001F1BFE /* CySurveyChoiceResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4579C0461E1DA00D0035DAC4 /* CySurveyChoiceResponseModel.swift */; };
+		C9CEAD00250AB292001F1BFE /* CySocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45282DA01DFEF4160021E7F9 /* CySocket.swift */; };
+		C9CEAD01250AB292001F1BFE /* CyMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458781C61DFC6A3A00851DD9 /* CyMessageTableViewCell.swift */; };
+		C9CEAD02250AB292001F1BFE /* CustomerlyGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF40A31E12E4AB002707C3 /* CustomerlyGalleryViewController.swift */; };
+		C9CEAD03250AB292001F1BFE /* CustomerlyChatStartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CE1841DE0AB4500FF65DC /* CustomerlyChatStartVC.swift */; };
+		C9CEAD04250AB292001F1BFE /* CyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FA19BE1DEB4C4D00D26059 /* CyTextField.swift */; };
+		C9CEAD05250AB292001F1BFE /* CyImageMassageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF40991E114C94002707C3 /* CyImageMassageTableViewCell.swift */; };
+		C9CEAD06250AB292001F1BFE /* CyInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C240281E42496600FC046A /* CyInt.swift */; };
+		C9CEAD07250AB292001F1BFE /* CyMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A0F981DF0C184003EEA43 /* CyMessageModel.swift */; };
+		C9CEAD08250AB292001F1BFE /* CySendMessageRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A0F871DEE248E003EEA43 /* CySendMessageRequestModel.swift */; };
+		C9CEAD09250AB292001F1BFE /* CyVersioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DE7D741F0C0F320069786D /* CyVersioning.swift */; };
+		C9CEAD0D250AB292001F1BFE /* CustomerlySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 455CE1321DE0AABD00FF65DC /* CustomerlySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9CEAD0F250AB292001F1BFE /* notification.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 45D16F121E412C030092E554 /* notification.m4r */; };
+		C9CEAD10250AB292001F1BFE /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 458781C21DFC658700851DD9 /* MessageCell.xib */; };
+		C9CEAD11250AB292001F1BFE /* ImageMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45FF409D1E114EFE002707C3 /* ImageMessageCell.xib */; };
+		C9CEAD12250AB292001F1BFE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45E924FD1E22DEA300514EA3 /* Localizable.strings */; };
+		C9CEAD13250AB292001F1BFE /* CustomerlyImageGallery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45FF40A11E12E486002707C3 /* CustomerlyImageGallery.storyboard */; };
+		C9CEAD14250AB292001F1BFE /* Banner.xib in Resources */ = {isa = PBXBuildFile; fileRef = 454BC2561E3E2D3900611B58 /* Banner.xib */; };
+		C9CEAD15250AB292001F1BFE /* CustomerlySurvey.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E61EF61E16AD340088D6C5 /* CustomerlySurvey.storyboard */; };
+		C9CEAD16250AB292001F1BFE /* MessageWithImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45FF409B1E114ECD002707C3 /* MessageWithImageCell.xib */; };
+		C9CEAD17250AB292001F1BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45FA19C01DEB4E0200D26059 /* Assets.xcassets */; };
+		C9CEAD18250AB292001F1BFE /* CustomerlyChat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455CE1821DE0AB4500FF65DC /* CustomerlyChat.storyboard */; };
+		C9CEAD22250AB2B6001F1BFE /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CEAD1E250AB2B5001F1BFE /* Kingfisher.framework */; };
+		C9CEAD24250AB2B6001F1BFE /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CEAD1F250AB2B5001F1BFE /* SocketIO.framework */; };
+		C9CEAD26250AB2B6001F1BFE /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CEAD20250AB2B5001F1BFE /* Starscream.framework */; };
+		C9CEAD28250AB2B6001F1BFE /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CEAD21250AB2B6001F1BFE /* ObjectMapper.framework */; };
+		C9CEAD2C250AB2E1001F1BFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CEAD2B250AB2E0001F1BFE /* UIKit.framework */; platformFilter = ios; };
 		E1092CF8A4E504B466FFFE22 /* Pods_CustomerlySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB8EB1905F4E874BAA89670 /* Pods_CustomerlySDK.framework */; };
 /* End PBXBuildFile section */
 
@@ -253,6 +343,14 @@
 		8CB8EB1905F4E874BAA89670 /* Pods_CustomerlySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomerlySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E04C0ED8FA868A83B0BBE2C /* Pods_CustomerlyDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomerlyDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D40DE420A7DBA14760B190 /* Pods-CustomerlyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomerlyDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomerlyDemo/Pods-CustomerlyDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C9CEAD1C250AB292001F1BFE /* CustomerlySDK-Carthage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "CustomerlySDK-Carthage.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CEAD1D250AB293001F1BFE /* CustomerlySDK copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CustomerlySDK copy-Info.plist"; path = "/Users/ecoleman/Projects/tmp/Customerly-iOS-SDK/CustomerlySDK copy-Info.plist"; sourceTree = "<absolute>"; };
+		C9CEAD1E250AB2B5001F1BFE /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		C9CEAD1F250AB2B5001F1BFE /* SocketIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIO.framework; path = Carthage/Build/iOS/SocketIO.framework; sourceTree = "<group>"; };
+		C9CEAD20250AB2B5001F1BFE /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
+		C9CEAD21250AB2B6001F1BFE /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		C9CEAD2B250AB2E0001F1BFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C9CEAD2E250AB36E001F1BFE /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		DF9FDD385BB3CF1819AB53CF /* Pods-CustomerlySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomerlySDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomerlySDK/Pods-CustomerlySDK.release.xcconfig"; sourceTree = "<group>"; };
 		DFDEFA7D85D77089038E94EE /* Pods-CustomerlyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomerlyDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomerlyDemo/Pods-CustomerlyDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -287,6 +385,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9CEAD0A250AB292001F1BFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CEAD22250AB2B6001F1BFE /* Kingfisher.framework in Frameworks */,
+				C9CEAD26250AB2B6001F1BFE /* Starscream.framework in Frameworks */,
+				C9CEAD28250AB2B6001F1BFE /* ObjectMapper.framework in Frameworks */,
+				C9CEAD24250AB2B6001F1BFE /* SocketIO.framework in Frameworks */,
+				C9CEAD2C250AB2E1001F1BFE /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +449,7 @@
 		455CE1231DE0AA9F00FF65DC = {
 			isa = PBXGroup;
 			children = (
+				C9CEAD2D250AB354001F1BFE /* CustomerlySDK-Carthage */,
 				455CE1311DE0AABD00FF65DC /* CustomerlySDK */,
 				455CE13C1DE0AABD00FF65DC /* CustomerlySDKTests */,
 				455CE14C1DE0AAF200FF65DC /* CustomerlyDemo */,
@@ -346,6 +457,7 @@
 				455CE1301DE0AABD00FF65DC /* Products */,
 				586C92D19EAEC2FF4E98C481 /* Pods */,
 				A163D13E5CC58444C4E32AC0 /* Frameworks */,
+				C9CEAD1D250AB293001F1BFE /* CustomerlySDK copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -356,6 +468,7 @@
 				455CE1381DE0AABD00FF65DC /* CustomerlySDKTests.xctest */,
 				455CE14B1DE0AAF200FF65DC /* CustomerlyDemo.app */,
 				455CE15E1DE0AAF200FF65DC /* CustomerlyDemoUITests.xctest */,
+				C9CEAD1C250AB292001F1BFE /* CustomerlySDK-Carthage.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -544,10 +657,23 @@
 		A163D13E5CC58444C4E32AC0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C9CEAD2B250AB2E0001F1BFE /* UIKit.framework */,
+				C9CEAD1E250AB2B5001F1BFE /* Kingfisher.framework */,
+				C9CEAD21250AB2B6001F1BFE /* ObjectMapper.framework */,
+				C9CEAD1F250AB2B5001F1BFE /* SocketIO.framework */,
+				C9CEAD20250AB2B5001F1BFE /* Starscream.framework */,
 				9E04C0ED8FA868A83B0BBE2C /* Pods_CustomerlyDemo.framework */,
 				8CB8EB1905F4E874BAA89670 /* Pods_CustomerlySDK.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9CEAD2D250AB354001F1BFE /* CustomerlySDK-Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				C9CEAD2E250AB36E001F1BFE /* BridgingHeader.h */,
+			);
+			path = "CustomerlySDK-Carthage";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -558,6 +684,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				455CE1401DE0AABD00FF65DC /* CustomerlySDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9CEAD0C250AB292001F1BFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CEAD0D250AB292001F1BFE /* CustomerlySDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,6 +774,24 @@
 			productReference = 455CE15E1DE0AAF200FF65DC /* CustomerlyDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		C9CEACBD250AB292001F1BFE /* CustomerlySDK-Carthage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9CEAD19250AB292001F1BFE /* Build configuration list for PBXNativeTarget "CustomerlySDK-Carthage" */;
+			buildPhases = (
+				C9CEACBF250AB292001F1BFE /* Sources */,
+				C9CEAD0A250AB292001F1BFE /* Frameworks */,
+				C9CEAD0C250AB292001F1BFE /* Headers */,
+				C9CEAD0E250AB292001F1BFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CustomerlySDK-Carthage";
+			productName = CustomerlySDK;
+			productReference = C9CEAD1C250AB292001F1BFE /* CustomerlySDK-Carthage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -689,6 +841,7 @@
 			projectRoot = "";
 			targets = (
 				455CE12E1DE0AABD00FF65DC /* CustomerlySDK */,
+				C9CEACBD250AB292001F1BFE /* CustomerlySDK-Carthage */,
 				455CE1371DE0AABD00FF65DC /* CustomerlySDKTests */,
 				455CE14A1DE0AAF200FF65DC /* CustomerlyDemo */,
 				455CE15D1DE0AAF200FF65DC /* CustomerlyDemoUITests */,
@@ -735,6 +888,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9CEAD0E250AB292001F1BFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CEAD0F250AB292001F1BFE /* notification.m4r in Resources */,
+				C9CEAD10250AB292001F1BFE /* MessageCell.xib in Resources */,
+				C9CEAD11250AB292001F1BFE /* ImageMessageCell.xib in Resources */,
+				C9CEAD12250AB292001F1BFE /* Localizable.strings in Resources */,
+				C9CEAD13250AB292001F1BFE /* CustomerlyImageGallery.storyboard in Resources */,
+				C9CEAD14250AB292001F1BFE /* Banner.xib in Resources */,
+				C9CEAD15250AB292001F1BFE /* CustomerlySurvey.storyboard in Resources */,
+				C9CEAD16250AB292001F1BFE /* MessageWithImageCell.xib in Resources */,
+				C9CEAD17250AB292001F1BFE /* Assets.xcassets in Resources */,
+				C9CEAD18250AB292001F1BFE /* CustomerlyChat.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -913,6 +1083,87 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C9CEACBF250AB292001F1BFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CEACC0250AB292001F1BFE /* CyCollectionView.swift in Sources */,
+				C9CEACC1250AB292001F1BFE /* CyString.swift in Sources */,
+				C9CEACC2250AB292001F1BFE /* CyLabel.swift in Sources */,
+				C9CEACC3250AB292001F1BFE /* CustomerlyConversationListVC.swift in Sources */,
+				C9CEACC4250AB292001F1BFE /* CyConversationModel.swift in Sources */,
+				C9CEACC5250AB292001F1BFE /* CyUserModel.swift in Sources */,
+				C9CEACC6250AB292001F1BFE /* CyWebsocketModel.swift in Sources */,
+				C9CEACC7250AB292001F1BFE /* CyBanner.swift in Sources */,
+				C9CEACC8250AB292001F1BFE /* CyMapping.swift in Sources */,
+				C9CEACC9250AB292001F1BFE /* CySurveyListViewController.swift in Sources */,
+				C9CEACCA250AB292001F1BFE /* CyImageView.swift in Sources */,
+				C9CEACCB250AB292001F1BFE /* CustomerlySurveyViewController.swift in Sources */,
+				C9CEACCC250AB292001F1BFE /* CyAdminModel.swift in Sources */,
+				C9CEACCD250AB292001F1BFE /* CySurveyResponseModel.swift in Sources */,
+				C9CEACCE250AB292001F1BFE /* CyMessageAttachmentRequestModel.swift in Sources */,
+				C9CEACCF250AB292001F1BFE /* CyStackView.swift in Sources */,
+				C9CEACD0250AB292001F1BFE /* CyDate.swift in Sources */,
+				C9CEACD1250AB292001F1BFE /* CyErrorModel.swift in Sources */,
+				C9CEACD2250AB292001F1BFE /* CyTrackingRequestModel.swift in Sources */,
+				C9CEACD3250AB292001F1BFE /* CySettingsModel.swift in Sources */,
+				C9CEACD4250AB292001F1BFE /* CyViewController.swift in Sources */,
+				C9CEACD5250AB292001F1BFE /* CySurveyButtonTableViewCell.swift in Sources */,
+				C9CEACD6250AB292001F1BFE /* CyTableView.swift in Sources */,
+				C9CEACD7250AB292001F1BFE /* CySurveyPickerViewController.swift in Sources */,
+				C9CEACD8250AB292001F1BFE /* CustomerlyNavigationController.swift in Sources */,
+				C9CEACD9250AB292001F1BFE /* CyLogging.swift in Sources */,
+				C9CEACDA250AB292001F1BFE /* CyHTTPValidation.swift in Sources */,
+				C9CEACDB250AB292001F1BFE /* CyAppModel.swift in Sources */,
+				C9CEACDC250AB292001F1BFE /* CyActiveAdminsTableViewCell.swift in Sources */,
+				C9CEACDD250AB292001F1BFE /* Customerly.swift in Sources */,
+				C9CEACDE250AB292001F1BFE /* CySendMessageResponseModel.swift in Sources */,
+				C9CEACDF250AB292001F1BFE /* CyAttachmentModel.swift in Sources */,
+				C9CEACE0250AB292001F1BFE /* CyBundle.swift in Sources */,
+				C9CEACE1250AB292001F1BFE /* CyTokenModel.swift in Sources */,
+				C9CEACE2250AB292001F1BFE /* CyDataModel.swift in Sources */,
+				C9CEACE3250AB292001F1BFE /* CyTextView.swift in Sources */,
+				C9CEACE4250AB292001F1BFE /* CySeenMessageSocketModel.swift in Sources */,
+				C9CEACE5250AB292001F1BFE /* CySendMessageRequestParamsModel.swift in Sources */,
+				C9CEACE6250AB292001F1BFE /* CyAccountModel.swift in Sources */,
+				C9CEACE7250AB292001F1BFE /* CyView.swift in Sources */,
+				C9CEACE8250AB292001F1BFE /* CyConversationMessagesResponseModel.swift in Sources */,
+				C9CEACE9250AB292001F1BFE /* CyConfig.swift in Sources */,
+				C9CEACEA250AB292001F1BFE /* CyMessageSeenRequestModel.swift in Sources */,
+				C9CEACEB250AB292001F1BFE /* CyRequestPingModel.swift in Sources */,
+				C9CEACEC250AB292001F1BFE /* CyDataFetcher.swift in Sources */,
+				C9CEACED250AB292001F1BFE /* CyTypingSocketModel.swift in Sources */,
+				C9CEACEE250AB292001F1BFE /* CyHeaderDateTableViewCell.swift in Sources */,
+				C9CEACEF250AB292001F1BFE /* CySurveySliderViewController.swift in Sources */,
+				C9CEACF0250AB292001F1BFE /* CyConversationTableViewCell.swift in Sources */,
+				C9CEACF1250AB292001F1BFE /* CySound.swift in Sources */,
+				C9CEACF2250AB292001F1BFE /* CySurveyParamsRequestModel.swift in Sources */,
+				C9CEACF3250AB292001F1BFE /* CyButton.swift in Sources */,
+				C9CEACF4250AB292001F1BFE /* CySingleActiveAdminCollectionViewCell.swift in Sources */,
+				C9CEACF5250AB292001F1BFE /* CyConversationRetrieveResponseModel.swift in Sources */,
+				C9CEACF6250AB292001F1BFE /* CyDeviceModel.swift in Sources */,
+				C9CEACF7250AB292001F1BFE /* CyConversationRequestModel.swift in Sources */,
+				C9CEACF8250AB292001F1BFE /* CyRouting.swift in Sources */,
+				C9CEACF9250AB292001F1BFE /* CySurveyTextFieldViewController.swift in Sources */,
+				C9CEACFA250AB292001F1BFE /* CyAppConfigModel.swift in Sources */,
+				C9CEACFB250AB292001F1BFE /* CyStorage.swift in Sources */,
+				C9CEACFC250AB292001F1BFE /* CyMessageSocketModel.swift in Sources */,
+				C9CEACFD250AB292001F1BFE /* CySurveyStarsViewController.swift in Sources */,
+				C9CEACFE250AB292001F1BFE /* CyColor.swift in Sources */,
+				C9CEACFF250AB292001F1BFE /* CySurveyChoiceResponseModel.swift in Sources */,
+				C9CEAD00250AB292001F1BFE /* CySocket.swift in Sources */,
+				C9CEAD01250AB292001F1BFE /* CyMessageTableViewCell.swift in Sources */,
+				C9CEAD02250AB292001F1BFE /* CustomerlyGalleryViewController.swift in Sources */,
+				C9CEAD03250AB292001F1BFE /* CustomerlyChatStartVC.swift in Sources */,
+				C9CEAD04250AB292001F1BFE /* CyTextField.swift in Sources */,
+				C9CEAD05250AB292001F1BFE /* CyImageMassageTableViewCell.swift in Sources */,
+				C9CEAD06250AB292001F1BFE /* CyInt.swift in Sources */,
+				C9CEAD07250AB292001F1BFE /* CyMessageModel.swift in Sources */,
+				C9CEAD08250AB292001F1BFE /* CySendMessageRequestModel.swift in Sources */,
+				C9CEAD09250AB292001F1BFE /* CyVersioning.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1083,7 +1334,11 @@
 				INFOPLIST_FILE = CustomerlySDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 3.1.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1144,14 +1399,19 @@
 				INFOPLIST_FILE = CustomerlySDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 3.1.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = io.customerly.CustomerlySDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1203,7 +1463,11 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = CustomerlySDKTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = io.customerly.CustomerlySDKTests;
@@ -1252,12 +1516,17 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = CustomerlySDKTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = io.customerly.CustomerlySDKTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1309,7 +1578,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = CustomerlyDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 3.1.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1363,13 +1635,17 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = CustomerlyDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 3.1.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = io.customerly.CustomerlyDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1419,7 +1695,11 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = CustomerlyDemoUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = io.customerly.CustomerlyDemoUITests;
@@ -1469,15 +1749,166 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = CustomerlyDemoUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = io.customerly.CustomerlyDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = CustomerlyDemo;
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9CEAD1A250AB292001F1BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A31FA2E3BDF3C36343BDD29 /* Pods-CustomerlySDK.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "CustomerlySDK copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.1.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = io.customerly.CustomerlySDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "CustomerlySDK-Carthage/BridgingHeader.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9CEAD1B250AB292001F1BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF9FDD385BB3CF1819AB53CF /* Pods-CustomerlySDK.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "CustomerlySDK copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.1.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = io.customerly.CustomerlySDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "CustomerlySDK-Carthage/BridgingHeader.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -1525,6 +1956,15 @@
 			buildConfigurations = (
 				455CE1691DE0AAF300FF65DC /* Debug */,
 				455CE16A1DE0AAF300FF65DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9CEAD19250AB292001F1BFE /* Build configuration list for PBXNativeTarget "CustomerlySDK-Carthage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CEAD1A250AB292001F1BFE /* Debug */,
+				C9CEAD1B250AB292001F1BFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
