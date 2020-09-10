@@ -349,7 +349,6 @@
 		C9CEAD20250AB2B5001F1BFE /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
 		C9CEAD21250AB2B6001F1BFE /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
 		C9CEAD2B250AB2E0001F1BFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C9CEAD2E250AB36E001F1BFE /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		DF9FDD385BB3CF1819AB53CF /* Pods-CustomerlySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomerlySDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomerlySDK/Pods-CustomerlySDK.release.xcconfig"; sourceTree = "<group>"; };
 		DFDEFA7D85D77089038E94EE /* Pods-CustomerlyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomerlyDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomerlyDemo/Pods-CustomerlyDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -448,7 +447,6 @@
 		455CE1231DE0AA9F00FF65DC = {
 			isa = PBXGroup;
 			children = (
-				C9CEAD2D250AB354001F1BFE /* CustomerlySDK-Carthage */,
 				455CE1311DE0AABD00FF65DC /* CustomerlySDK */,
 				455CE13C1DE0AABD00FF65DC /* CustomerlySDKTests */,
 				455CE14C1DE0AAF200FF65DC /* CustomerlyDemo */,
@@ -664,14 +662,6 @@
 				8CB8EB1905F4E874BAA89670 /* Pods_CustomerlySDK.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C9CEAD2D250AB354001F1BFE /* CustomerlySDK-Carthage */ = {
-			isa = PBXGroup;
-			children = (
-				C9CEAD2E250AB36E001F1BFE /* BridgingHeader.h */,
-			);
-			path = "CustomerlySDK-Carthage";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1831,7 +1821,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OBJC_BRIDGING_HEADER = "CustomerlySDK-Carthage/BridgingHeader.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1900,7 +1889,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OBJC_BRIDGING_HEADER = "CustomerlySDK-Carthage/BridgingHeader.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

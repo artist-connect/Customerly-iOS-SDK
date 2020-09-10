@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C9CEACBD250AB292001F1BFE"
-               BuildableName = "CustomerlySDK-Carthage.framework"
+               BuildableName = "CustomerlySDK.framework"
                BlueprintName = "CustomerlySDK-Carthage"
                ReferencedContainer = "container:Customerly.xcodeproj">
             </BuildableReference>
@@ -51,7 +51,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C9CEACBD250AB292001F1BFE"
-            BuildableName = "CustomerlySDK-Carthage.framework"
+            BuildableName = "CustomerlySDK.framework"
             BlueprintName = "CustomerlySDK-Carthage"
             ReferencedContainer = "container:Customerly.xcodeproj">
          </BuildableReference>
