@@ -343,8 +343,7 @@
 		8CB8EB1905F4E874BAA89670 /* Pods_CustomerlySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomerlySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E04C0ED8FA868A83B0BBE2C /* Pods_CustomerlyDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomerlyDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D40DE420A7DBA14760B190 /* Pods-CustomerlyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomerlyDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomerlyDemo/Pods-CustomerlyDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		C9CEAD1C250AB292001F1BFE /* CustomerlySDK-Carthage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "CustomerlySDK-Carthage.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9CEAD1D250AB293001F1BFE /* CustomerlySDK copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CustomerlySDK copy-Info.plist"; path = "/Users/ecoleman/Projects/tmp/Customerly-iOS-SDK/CustomerlySDK copy-Info.plist"; sourceTree = "<absolute>"; };
+		C9CEAD1C250AB292001F1BFE /* CustomerlySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomerlySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CEAD1E250AB2B5001F1BFE /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
 		C9CEAD1F250AB2B5001F1BFE /* SocketIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIO.framework; path = Carthage/Build/iOS/SocketIO.framework; sourceTree = "<group>"; };
 		C9CEAD20250AB2B5001F1BFE /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
@@ -457,7 +456,6 @@
 				455CE1301DE0AABD00FF65DC /* Products */,
 				586C92D19EAEC2FF4E98C481 /* Pods */,
 				A163D13E5CC58444C4E32AC0 /* Frameworks */,
-				C9CEAD1D250AB293001F1BFE /* CustomerlySDK copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -468,7 +466,7 @@
 				455CE1381DE0AABD00FF65DC /* CustomerlySDKTests.xctest */,
 				455CE14B1DE0AAF200FF65DC /* CustomerlyDemo.app */,
 				455CE15E1DE0AAF200FF65DC /* CustomerlyDemoUITests.xctest */,
-				C9CEAD1C250AB292001F1BFE /* CustomerlySDK-Carthage.framework */,
+				C9CEAD1C250AB292001F1BFE /* CustomerlySDK.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -789,7 +787,7 @@
 			);
 			name = "CustomerlySDK-Carthage";
 			productName = CustomerlySDK;
-			productReference = C9CEAD1C250AB292001F1BFE /* CustomerlySDK-Carthage.framework */;
+			productReference = C9CEAD1C250AB292001F1BFE /* CustomerlySDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1817,7 +1815,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "CustomerlySDK copy-Info.plist";
+				INFOPLIST_FILE = CustomerlySDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1829,7 +1827,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = io.customerly.CustomerlySDK;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CustomerlySDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1887,7 +1885,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "CustomerlySDK copy-Info.plist";
+				INFOPLIST_FILE = CustomerlySDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1898,7 +1896,7 @@
 				MARKETING_VERSION = 3.1.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = io.customerly.CustomerlySDK;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CustomerlySDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
