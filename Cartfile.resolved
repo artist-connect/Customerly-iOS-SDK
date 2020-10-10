@@ -1,4 +1,4 @@
 github "daltoniam/Starscream" "3.1.1"
+github "evandcoleman/socket.io-client-swift" "5a230d7f8352f779172f5bbae5a7fe53f12fa1cd"
 github "onevcat/Kingfisher" "5.13.4"
-github "socketio/socket.io-client-swift" "v15.2.0"
 github "tristanhimmelman/ObjectMapper" "3.5.2"
