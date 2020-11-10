@@ -2,6 +2,85 @@
 
 -----
 
+## [5.15.6 - ImageBinder Callback](https://github.com/onevcat/Kingfisher/releases/tag/5.15.6) (2020-10-11)
+
+#### Fix
+* Prevent main queue dispatching in `ImageBinder` if it is already on main thread. This prevents unintended flickering when reloading. [#1551](https://github.com/onevcat/Kingfisher/pull/1551)
+
+---
+
+## [5.15.5 - Cancelling Fix](https://github.com/onevcat/Kingfisher/releases/tag/5.15.5) (2020-09-29)
+
+#### Fix
+* A possible fix for the crashes when cancelling a huge amount of image tasks too fast. [#1537]
+
+---
+
+## [5.15.4 - Farewell Objective-C (CocoaPods)](https://github.com/onevcat/Kingfisher/releases/tag/5.15.4) (2020-09-24)
+
+#### Fix
+* Give `SessionDelegate` an Objective-C name so it can work with other libraries even added by a dependency which generates Objective-C header. [#1532](https://github.com/onevcat/Kingfisher/pull/1532)
+
+---
+
+## [5.15.3 - Farewell Objective-C](https://github.com/onevcat/Kingfisher/releases/tag/5.15.3) (2020-09-21)
+
+#### Fix
+* Removed the unnecessary ObjC header generating and module defining due to Xcode 12 is now generating conflicted types even for different libraries. [#1517](https://github.com/onevcat/Kingfisher/issues/1517)
+* Set deploy target for SwiftUI target and its pod spec to iOS 10 and macOS 10.12, which aligns to the settings of core framework. That resolves some dependency issues when using CocoaPods for both app target and extension targets. But it does not mean you can use the SwiftUI support on those minimal target. All related APIs are still unavailable on old system versions. [#1524](https://github.com/onevcat/Kingfisher/pull/1524)
+
+---
+
+## [5.15.2 - Xcode 11 Revived](https://github.com/onevcat/Kingfisher/releases/tag/5.15.2) (2020-09-19)
+
+#### Fix
+* Fix a build error introduced by the previous SwiftUI fix for Xcode 12. Now Xcode 11 can also build the KingfisherSwiftUI target. [#1515](https://github.com/onevcat/Kingfisher/pull/1515)
+
+---
+
+## [5.15.1 - SwiftUI Layout](https://github.com/onevcat/Kingfisher/releases/tag/5.15.1) (2020-09-16)
+
+#### Fix
+* A workaround for a SwiftUI issue that embedding an image view inside the `List` > `NavigationLink` > `HStack` hierarchy could crash the app on iOS 14. [#1508](https://github.com/onevcat/Kingfisher/issues/1508)
+
+---
+
+## [5.15.0 - Video and Text Attachment](https://github.com/onevcat/Kingfisher/releases/tag/5.15.0) (2020-08-17)
+
+#### Add
+* An `AVAssetImageDataProvider` to generate an image from a remote video asset at a specified time. All the processing gets benefits from current existing Kingfisher technologies, such as cache and image processors. [#1500](https://github.com/onevcat/Kingfisher/pull/1500)
+* New extension methods on `NSTextAttachment` to load an image from network for an attachment. [#1495](https://github.com/onevcat/Kingfisher/pull/1495)
+* A general clear cache method which combines clearing for memory cache and disk cache. [#1494](https://github.com/onevcat/Kingfisher/pull/1494)
+
+#### Fix
+* Now the sample app has a new look and supports dark mode, finally. [#1496](https://github.com/onevcat/Kingfisher/pull/1496)
+
+---
+
+## [5.14.1 - Summer Fix](https://github.com/onevcat/Kingfisher/releases/tag/5.14.1) (2020-07-06)
+
+#### Fix
+* Early return if no valid animator in an `AnimatedImageView`. This prevents a CGImage rendering issue displaying a static image. [#1428](https://github.com/onevcat/Kingfisher/issues/1428)
+* Enable Define Module setting to generate module map. So Kingfisher could be used in libraries imported to Objective-C projects. [#1451](https://github.com/onevcat/Kingfisher/pull/1451)
+* A fix to workaround on implicitly initializer of queue that might cause a crash. [#1449](https://github.com/onevcat/Kingfisher/issues/1449)
+* Improve the disk cache performance by avoiding unnecessary disk operations. [#1480](https://github.com/onevcat/Kingfisher/pull/1480)
+
+---
+
+## [5.14.0 - Retry Strategy](https://github.com/onevcat/Kingfisher/releases/tag/5.14.0) (2020-05-13)
+
+#### Add
+* A `.retryStrategy` option and associated `RetryStrategy` to define a highly customizable retry mechanism in Kingfisher. [#1424]
+* Built-in `DelayRetryStrategy` to provide a most common used retry strategy implementation. It simplifies the normal retry requirement when downloading an image from network. [#1447](https://github.com/onevcat/Kingfisher/pull/1447)
+* Now you can set the round corner radius for a `RoundCornerImageProcessor` in a fraction way. This is useful when you do not know the desire image view size, but still want to clip any received image to a certain round corner ratio (such as a circle for any image). [#1443](https://github.com/onevcat/Kingfisher/pull/1443)
+* Add an `isLoaded` binding to `KFImage` to follow SwiftUI pattern better. [#1429](https://github.com/onevcat/Kingfisher/pull/1429)
+
+#### Fix
+* An issue that `.imageModifier` option not working on an `ImageProvider` provided image. [#1435](https://github.com/onevcat/Kingfisher/pull/1435)
+* A workaround for making xcframework continue to work when exported with Swift 5.2 compiler and Xcode 11.4. [#1444](https://github.com/onevcat/Kingfisher/pull/1444)
+
+---
+
 ## [5.13.4 - Build Configurations](https://github.com/onevcat/Kingfisher/releases/tag/5.13.4) (2020-04-11)
 
 #### Fix
