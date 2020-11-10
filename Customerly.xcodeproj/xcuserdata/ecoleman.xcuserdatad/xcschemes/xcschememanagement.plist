@@ -14,14 +14,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>CustomerlySDK.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>455CE12E1DE0AABD00FF65DC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>455CE1371DE0AABD00FF65DC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>C9CEACBD250AB292001F1BFE</key>
 		<dict>
 			<key>primary</key>
